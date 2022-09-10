@@ -13,7 +13,7 @@ import Info from "./Info.vue";
 // Define routes
 const routes = [
   { path: "/", component: Home },
-  { path: "/info", component: Info },
+  { path: "/info/:id", component: Info },
 ];
 
 // Create the router instance and pass the `routes` option
